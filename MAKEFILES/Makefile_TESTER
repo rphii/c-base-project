@@ -81,7 +81,7 @@ endef
 
 all: $(TARGETS)
 $(eval $(call binary,$(CFLAGS),$(LDFLAGS),$(OBJ_DIR),bin/test,\
-	# source files below ... \
+	# LIST OF SOURCE FILES HERE, seperated by a space (replace this comment) \
 	))
 
 #$(BIN_DIR):
