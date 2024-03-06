@@ -61,4 +61,5 @@
 #define PLATFORM_H
 #endif
 
+void platform_trace(void);
 
